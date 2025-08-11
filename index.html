@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extrator de Palavras-Chave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Extrator de Palavras-Chave</h1>
+        <p>Cole seu texto abaixo e extraia as palavras mais relevantes</p>
+    </header>
 
+    <main class="container">
+        <div class="input-section">
+            <textarea id="text-input" placeholder="Cole seu texto aqui..."></textarea>
+            <button id="extract-btn">Extrair Palavras-Chave</button>
+        </div>
+
+        <div class="results-section">
+            <h2>Resultados</h2>
+            <div class="keywords-container" id="keywords-container">
+                <!-- As palavras-chave serão inseridas aqui pelo JavaScript -->
+                <p class="placeholder">As palavras-chave extraídas aparecerão aqui...</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
